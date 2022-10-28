@@ -1,5 +1,5 @@
 import angr
-p = angr.Project("../../dist/00_angr_find")
+p = angr.Project("../../dist/01_angr_avoid")
 state = p.factory.entry_state()
 sm = p.factory.simulation_manager(state)
 # we can use parameter pattern like 'avoid=avoid_addr' to avoid the execution of some wrong branches
