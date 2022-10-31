@@ -1,6 +1,6 @@
 import angr
 # import the program
-p = angr.Project("../../dist/00_angr_find")
+p = angr.Project("../../solutions/00_angr_find/00_angr_find")
 # create a state
 state = p.factory.entry_state()
 # create a simulation execution starts at the parameter

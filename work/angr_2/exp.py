@@ -1,6 +1,6 @@
 import angr
 
-p = angr.Project("../../dist/02_angr_find_condition")
+p = angr.Project("../../solutions/02_angr_find_condition/02_angr_find_condition")
 s = p.factory.entry_state()
 sm = p.factory.simulation_manager(s)
 
